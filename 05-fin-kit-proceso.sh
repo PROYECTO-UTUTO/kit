@@ -1,4 +1,13 @@
 #!/bin/bash
+#################################
+# Final process					#
+# Author:	Daniel Olivera		#
+#								#
+# Modified: Diego Calbo			#
+# Date:		01/28/2015			#
+#								#
+# Devel Team - UTUTO Project	#
+#################################
 
 echo -n "Processing..... please wait!! -> "
 SERIAL=`date | sed "s/lun //" | sed "s/mar //" | sed "s/mie //" | sed "s/jue //" | sed "s/vie //" | sed "s/sab //" | sed "s/dom //" | sed "s/ /_/g" | sed "s/__/_/g"`
